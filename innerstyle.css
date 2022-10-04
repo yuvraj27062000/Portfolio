@@ -1,0 +1,135 @@
+/*  *************** blinking dot start */
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .dot {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .dot {
+    border: 5px solid rgb(32, 23, 23);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    
+  }
+
+ 
+
+/* ********************  blinking dot end */
+
+/* =======style box start ============= */
+
+.style-box
+{
+  position: fixed;
+  right: 0;
+  top: 40px;
+  padding: 15px;
+  width: 200px;
+  /* border: 1px solid black; */
+  z-index: 1;
+  background-color: white;
+  /* border-radius: 10px; */
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 0.3s ease ;
+  transform: translateX(100%);
+}
+.style-box.open{
+  transform: translateX(13px);
+}
+.style-box .s-icon
+{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-right: 45px;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.style-box .s-icon
+{
+  line-height: 30px;
+}
+.style-box .inner-style-box
+{
+  top:0;
+  right: 159px;
+}
+.style-box .day-night
+{
+  top: 50px;
+  right: 159px;
+}
+
+.style-box h4{
+  margin: 0 0 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.style-box .colors
+{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+.style-box .colors span
+{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+}
+
+.style-box .color-1
+{
+  background-color: blue;
+  cursor: pointer;
+}
+.style-box .color-2
+{
+  background-color: rgb(255, 0, 55);
+  cursor: pointer;
+}
+.style-box .color-3
+{
+  background-color: rgb(255, 0, 242);
+  cursor: pointer;
+}
+.style-box .color-4
+{
+  background-color: rgb(255, 81, 0);
+  cursor: pointer;
+}
+.style-box .color-5
+{
+  background-color: rgb(30, 255, 0);
+  cursor: pointer;
+}
