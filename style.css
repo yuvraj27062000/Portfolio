@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 :root {
   --white: rgb(255, 255, 255);
-  --light-white:#eef8ff;
+  --light-white:#f51313;
   --main-text-color: rgb(31, 25, 25);
   --switch-color: rgb(255, 81, 0);
   --light-black:rgb(95, 93, 93);
@@ -867,8 +867,8 @@ border:  1px solid var(--switch-color);
   line-height: 60px;
   background-color: black;
   transition: all .6s ease;
--webkit-transition: all 1.03s ease;
-border:  1px solid var(--switch-color); 
+  -webkit-transition: all 1.03s ease;
+  border:  1px solid var(--switch-color); 
 }
 
 .contect .contect-info-item h3
