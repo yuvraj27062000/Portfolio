@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 :root {
   --white: rgb(255, 255, 255);
-  --light-white:#f51313;
+  --light-white:#eef8ff;
   --main-text-color: rgb(31, 25, 25);
   --switch-color: rgb(255, 81, 0);
   --light-black:rgb(95, 93, 93);
