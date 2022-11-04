@@ -11,7 +11,7 @@
   --text-white:white;
   --text-black:black;
   --light-text-black:rgb(41, 37, 37);
-  --gray:rgb(78, 75, 75);
+  --gray:rgb(78, 75, 75); 
   --light-gray:rgb(216, 213, 213);
 }
 body.dark {
